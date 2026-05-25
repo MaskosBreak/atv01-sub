@@ -17,9 +17,10 @@ img{
 .box{
     padding-top: 300px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 30px;
 }
 .twit{
     display: flex;
@@ -91,4 +92,16 @@ img{
 p{
     padding-left: 15px;
     padding-right: 15px;
+}
+.youtube:hover img{
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
+.twit:hover img{
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
+.insta:hover img{
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
 }
